@@ -9,11 +9,10 @@ export default function Service() {
   return (
     <section className="dark:bg-[#111827] dark:text-white  w-full">
       <h1 className="text-center text-xl md:text-3xl p-5">
-        WiseHive merupakan cara yang efektif untuk meningkatkan pembelajaran
-        siswa
+        WiseHive Developing Skills, Enriching Lives
       </h1>
       <div className="container grid grid-cols-1 md:grid-cols-3 mt-10 md:mx-auto">
-        <div className="w-full md:w-1/2 service-list ml-4">
+        <div className="w-full md:w-1/2 service-list ml-4" data-aos="fade-left">
           {/* <!--  card --> */}
           <div className="w-1/2 md:w-full">
             <div className="bg-pink-500 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
@@ -37,7 +36,10 @@ export default function Service() {
           </div>
         </div>
         {/* <!--  card --> */}
-        <div className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-0">
+        <div
+          className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-0"
+          data-aos="fade-right"
+        >
           <div className="w-1/2 md:w-full">
             <div className="bg-yellow-300 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
               <svg
@@ -58,7 +60,10 @@ export default function Service() {
           </div>
         </div>
         {/* <!--  card --> */}
-        <div className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-0">
+        <div
+          className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-0"
+          data-aos="fade-right"
+        >
           <div className="w-1/2 md:w-full">
             <div className="bg-pink-400 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
               <svg
@@ -79,7 +84,10 @@ export default function Service() {
         </div>
         {/* <!--  card --> */}
         {/* <!--  card --> */}
-        <div className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10">
+        <div
+          className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10"
+          data-aos="fade-left"
+        >
           <div className="w-1/2 md:w-full">
             <div className="bg-blue-400 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
               <svg
@@ -100,7 +108,10 @@ export default function Service() {
         </div>
         {/* <!--  card --> */}
         {/* <!--  card --> */}
-        <div className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10">
+        <div
+          className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10"
+          data-aos="fade-left"
+        >
           <div className="w-1/2 md:w-full">
             <div className="bg-green-400 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
               <svg
@@ -121,7 +132,10 @@ export default function Service() {
         </div>
         {/* <!--  card --> */}
         {/* <!--  card --> */}
-        <div className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10">
+        <div
+          className="w-full md:w-1/2 service-list ml-4 mt-10 md:mt-10"
+          data-aos="fade-right"
+        >
           <div className="w-1/2 md:w-full">
             <div className="bg-yellow-200 w-16 flex justify-center py-4 rounded-t-3xl font-poppins font-bold rounded-b-3xl">
               <svg

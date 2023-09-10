@@ -6,7 +6,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Flowbite>
-      <nav className="flex items-center justify-between flex-wrap p-6 dark:bg-[#111827] dark:text-white">
+      <nav className="flex border-b border-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg sticky top-0 z-10 bg-white  dark:border-gray-500 dark:bg-opacity-30 dark:backdrop-filter dark:backdrop-blur-lg items-center justify-between flex-wrap p-6 dark:bg-[#111827] dark:text-white container mx-auto">
         <div className="flex items-center flex-shrink-0 text-black mr-6 lg:mr-72 dark:text-white">
           wisehive
         </div>

@@ -3,13 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Navbar from "./component/Navbar";
 import Service from "./component/Service";
+import Header from "./component/Header";
+import Learning from "./component/Learning";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Header />
     <Service />
+    <Learning />
   </React.StrictMode>
 );
 
