@@ -28,7 +28,7 @@ export default function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="/"
+                    href="/service/1on1-coaching"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     1on1 Coaching
@@ -37,7 +37,7 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
+                    href="/service/company-review"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     Company Review
@@ -52,7 +52,7 @@ export default function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="/"
+                    href="/company/about"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     About
@@ -61,19 +61,10 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
+                    href="/company/meet"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     Meet the Team
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    Accounts Review
                   </a>
                 </li>
               </ul>
@@ -85,7 +76,7 @@ export default function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="/"
+                    href="/help/contact"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     Contact
@@ -94,19 +85,10 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="/"
+                    href="/help/faq"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     FAQs
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    Live Chat
                   </a>
                 </li>
               </ul>

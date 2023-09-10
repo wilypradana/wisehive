@@ -1,22 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import Navbar from "./component/Navbar";
-import Service from "./component/Service";
-import Header from "./component/Header";
-import Learning from "./component/Learning";
-import Footer from "./component/Footer";
+
+import Coaching from "./component/service/1on1coaching";
+import Homepage from "./component/Homepage";
 import reportWebVitals from "./reportWebVitals";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <Header />
-    <Service />
-    <Learning />
-    <Footer />
+    <BrowserRouter>
+      <Route path="/">element={<Homepage />}</Route>
+      <Route path="/service/1on1-coaching">element={<Coaching />}</Route>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
