@@ -1,12 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 import { FaGithub } from "react-icons/fa";
 import { DarkThemeToggle, Flowbite } from "flowbite-react";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <Flowbite>
-      <nav className="flex border-b border-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg sticky top-0 z-10 bg-white  dark:border-gray-500 dark:bg-opacity-30 dark:backdrop-filter dark:backdrop-blur-lg items-center justify-between flex-wrap p-6 dark:bg-[#111827] dark:text-white container mx-auto">
+      <nav
+        className={`flex border-b border-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg  top-0 z-10 bg-white dark:border-gray-500 dark:bg-opacity-30 dark:backdrop-filter dark:backdrop-blur-lg items-center justify-between flex-wrap p-6 dark:bg-[#020203] dark:text-white container mx-auto ${
+          isSticky ? "fixed" : ""
+        }`}
+      >
         <div className="flex items-center flex-shrink-0 text-black mr-6 lg:mr-72 dark:text-white">
           wisehive
         </div>
