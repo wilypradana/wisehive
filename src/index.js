@@ -5,7 +5,9 @@ import Navbar from "./component/Navbar";
 import Service from "./component/Service";
 import Header from "./component/Header";
 import Learning from "./component/Learning";
+import Footer from "./component/Footer";
 import reportWebVitals from "./reportWebVitals";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,7 @@ root.render(
     <Header />
     <Service />
     <Learning />
+    <Footer />
   </React.StrictMode>
 );
 
