@@ -26,8 +26,9 @@ function App() {
     <Flowbite>
       <nav
         className={`flex border-b border-gray-200 bg-opacity-30 backdrop-filter backdrop-blur-lg  top-0 z-10 bg-white dark:border-gray-500 dark:bg-opacity-30 dark:backdrop-filter dark:backdrop-blur-lg items-center justify-between flex-wrap p-6 dark:bg-[#020203] dark:text-white container mx-auto ${
-          isSticky ? "fixed" : ""
+          isSticky ? "sticky" : ""
         }`}
+        id="navbar"
       >
         <div className="flex items-center flex-shrink-0 text-black mr-6 lg:mr-72 dark:text-white">
           wisehive
